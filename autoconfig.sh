@@ -31,6 +31,8 @@ apt install -y linux-tools-common linux-tools-generic linux-tools-`uname -r`
 apt install -y git wget curl gcc gdb clang vim python3 tmux zsh tree cloc htop \
     scons fzf silversearcher-ag
 
+apt install libcgroup-dev
+
 echo "========== change bash to zsh =========="
 chsh -s /bin/zsh
 
