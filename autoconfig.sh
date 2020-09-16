@@ -28,10 +28,12 @@ apt upgrade -y
 
 echo "========== install basic tools =========="
 apt install -y linux-tools-common linux-tools-generic linux-tools-`uname -r`
-apt install -y git wget curl gcc gdb clang vim python3 tmux zsh tree cloc htop \
+apt install -y git wget curl gcc gdb clang vim python3 python3-pip tmux zsh tree cloc htop \
     scons fzf silversearcher-ag
 
-apt install -y libcgroup-dev 
+apt install -y libcgroup-dev build-essential libnuma-dev meson
+
+pip3 install ninja
 
 echo "========== change bash to zsh =========="
 chsh -s /bin/zsh
