@@ -27,7 +27,7 @@ cd ~
 
 cd $RTE_KNI
 rmmod rte_kni.ko
-insmod rte_kni.ko
+insmod rte_kni.ko kthread_mode=multiple
 cd ~
 
 # eth down
