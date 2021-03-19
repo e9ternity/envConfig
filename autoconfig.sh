@@ -34,7 +34,7 @@ apt install -y git wget curl gcc gdb clang vim python3 python3-pip tmux zsh tree
 apt install -y libcgroup-dev build-essential libnuma-dev
 
 pip3 install meson ninja
-=======
+
 apt install -y libcgroup-dev build-essential libnuma-dev meson
 
 pip3 install ninja
@@ -60,9 +60,5 @@ cd ~
 mkdir -p .vim/autoload
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
-
-
-
 
 echo "========== ALL done, enjoy yourself ==========\n"

@@ -237,3 +237,5 @@ check-cmd-self-insert() { zle .self-insert && recolor-cmd }
 . ~/.oh-my-zsh/plugins/z/z.sh
 
 DISABLE_UPDATE_PROMPT=true
+
+. "/root/.local/share/lscolor.sh"
