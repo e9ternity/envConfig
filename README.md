@@ -1,8 +1,8 @@
 # EnvConfig 
-include:
-- vimrc
-- zshrc
-- autoconfig for ubuntu
+
+## Proxy rule for shadowrocket
+
+## Linux configuration
 
 Email: e9ternity@gmail.com
 
