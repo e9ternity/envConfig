@@ -1,6 +1,9 @@
 DOMAIN-SUFFIX,notion.so,Proxy
+DOMAIN-SUFFIX,notion-static.com,Proxy
 DOMAIN-SUFFIX,intercom.io,Proxy
 DOMAIN-SUFFIX,intercomcdn.com,Proxy
+DOMAIN-SUFFIX,nexus-websocket-a.intercom.io,Proxy
+DOMAIN-SUFFIX,loggly.com,Proxy
 DOMAIN-SUFFIX,google-analytics.com,Proxy
 DOMAIN-SUFFIX,gstatic.com,Proxy
 DOMAIN-SUFFIX,googletagmanager.com,Proxy
