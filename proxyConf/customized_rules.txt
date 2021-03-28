@@ -45,3 +45,6 @@ DOMAIN-SUFFIX,raw.githubusercontent.com,Proxy
 DOMAIN-SUFFIX,amplitude.com,Proxy
 DOMAIN-SUFFIX,strongswan.org,Proxy
 DOMAIN-SUFFIX,fd.io,Proxy
+DOMAIN-SUFFIX,tdesktop.com,Proxy
+
+IP-CIDR,91.108.56.123/32,Proxy
