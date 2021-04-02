@@ -48,5 +48,6 @@ DOMAIN-SUFFIX,fd.io,Proxy
 DOMAIN-SUFFIX,tdesktop.com,Proxy
 
 IP-CIDR,91.108.56.123/32,Proxy
+IP-CIDR,149.154.167.50/32,Proxy
 
 DOMAIN-KEYWORD,google,Proxy
